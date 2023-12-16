@@ -1,0 +1,1 @@
+String getPathToImageAsset(String imageName) => "assets/images/$imageName";
