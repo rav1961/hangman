@@ -16,7 +16,7 @@ class HangmanPage extends StatelessWidget {
 
   Widget _buildContent(BuildContext context) {
     return const Column(
-      children: [WordToGuessView(), Hangman()],
+      children: [WordToGuessView("A_d_"), Hangman()],
     );
   }
 }
